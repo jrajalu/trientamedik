@@ -1,0 +1,28 @@
+{
+  "name": "trientamedik-master",
+  "version": "1.0.0",
+  "description": "trientamedik.com.my",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jrajalu@github.com/jrajalu/trientamedik.git"
+  },
+  "author": "Jamaludin Rajalu",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jrajalu/trientamedik/issues"
+  },
+  "homepage": "https://github.com/jrajalu/trientamedik#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-banner": "^0.5.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "trientamedik-master",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jrajalu/trientamedik",
+  "description": "trientamedik.com.my",
+  "main": "index.php",
+  "moduleType": [
+    "globals"
+  ],
+  "authors": [
+    "Jamaludin Rajalu"
+  ],
+  "license": "GPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "uikit": "~2.22.0",
+    "fitvids": "~1.1.0",
+    "TGM-Plugin-Activation": "https://github.com/TGMPA/TGM-Plugin-Activation.git#~2.4.2",
+    "jqnewsTicker": "https://github.com/jayeshmagare/jqnewsTicker.git#~1.0.2",
+    "CMB2": "https://github.com/WebDevStudios/CMB2.git#~2.1.0"
+  }
+}

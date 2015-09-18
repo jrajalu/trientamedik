@@ -1,2 +1,1 @@
-# trientamedik
 trientamedik.com.my
