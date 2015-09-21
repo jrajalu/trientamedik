@@ -2,6 +2,8 @@
 /**
  * @package unityrepair
  * @since 1.0
+ * 
+ * Template Name: Page with Thumbnail (Right)
  */
 get_header(); ?>
 <div class="wrap column pad-top pad-bottom">
@@ -14,7 +16,7 @@ get_header(); ?>
     </div>
   </div>
   <div class="col-4-12 pad-left">
-    <?php get_sidebar(); ?>
+    <?php the_post_thumbnail( 'full' ); ?>
   </div>
 </div>
 <?php get_footer(); ?>
