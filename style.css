@@ -1,7 +1,7 @@
 /*
 Theme Name: Trienta Medik
 Theme URI: https://github.com/jrajalu/unityrepair
-Version: 1.0.4
+Version: 1.0.5
 Description: trientamedik.com.my
 Author: Jamaludin Rajalu
 */
@@ -638,8 +638,12 @@ a img.aligncenter {
   margin-top: 20px;
 }
 
-.widget {
+.widget-left {
   padding: 30px 40px 30px 0;
+}
+
+.widget-right {
+  padding: 30px 0 30px 40px;
 }
 
 .widget-page-list {
