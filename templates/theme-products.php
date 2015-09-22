@@ -5,7 +5,7 @@
  */
 ?>
 <div class="wrap product-widget">
-<div data-uk-slideset="{default: 4,autoplay: true, pauseOnHover: true, autoplayInterval: 5000}">
+<div data-uk-slideset="{default: 4,autoplay: true, pauseOnHover: true, autoplayInterval: 9000}">
     <div class="uk-slidenav-position">
         <ul class="uk-slideset uk-grid uk-flex-center uk-grid-width-1-4">
           <?php
