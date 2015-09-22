@@ -54,11 +54,11 @@
 }
 #cssmenu > ul > li > a {
   padding: 18px 15px 21px 15px; // padding: 18px 25px 21px 25px;
-  border-right: 1px solid rgba(80, 80, 80, 0.12);
+  //border-right: 1px solid rgba(80, 80, 80, 0.12);
   text-decoration: none;
   font-size: 13px;
   //font-weight: 700;
-  color: #d3eced;
+  color: #444444;
   text-transform: uppercase;
   //letter-spacing: 1px;
 }
@@ -78,7 +78,7 @@
   width: 0;
   height: 0;
   border: 6px solid transparent;
-  border-top-color: #d3eced;
+  border-top-color: #444444;
   right: 17px;
   top: 22px;
 }
@@ -248,7 +248,7 @@
     text-decoration: none;
     font-size: 13px;
     font-weight: 700;
-    color: #d3eced;
+    color: #444444;
     padding: 18px 25px 18px 25px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -295,8 +295,8 @@
     position: absolute;
     height: 3px;
     width: 22px;
-    border-top: 2px solid #d3eced;
-    border-bottom: 2px solid #d3eced;
+    border-top: 2px solid #444444;
+    border-bottom: 2px solid #444444;
     right: 25px;
     top: 18px;
   }
@@ -306,7 +306,7 @@
     position: absolute;
     height: 3px;
     width: 22px;
-    border-top: 2px solid #d3eced;
+    border-top: 2px solid #444444;
     right: 25px;
     top: 28px;
   }

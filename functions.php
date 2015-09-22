@@ -117,25 +117,24 @@ add_action( 'widgets_init', 'unityrepair_widgets_init' );
     ) );
 
     register_sidebar( array(
-      'name'            => __( 'Frontpage: Two Column Left', 'unityrepair' ),
+      'name'            => __( 'Frontpage: Left', 'unityrepair' ),
       'id'              => 'sidebar-2',
       'description'     => __( 'Appears when using the optional Front Page', 'unityrepair' ),
-      'before_widget'   => '<aside class="col-6-12 widget front-widget">',
+      'before_widget'   => '<aside class="col-8-12 widget front-widget">',
       'after_widget'    => '</aside>',
-      'before_title'    => '<h3 class="widget-title">',
-      'after_title'     => '</h3>',
+      'before_title'    => '<h2 class="widget-title">',
+      'after_title'     => '</h2>',
     ) );
-
+    
     register_sidebar( array(
-      'name'            => __( 'Frontpage: One Column Right', 'unityrepair' ), 
+      'name'            => __( 'Frontpage: Right', 'unityrepair' ),
       'id'              => 'sidebar-3',
       'description'     => __( 'Appears when using the optional Front Page', 'unityrepair' ),
-      'before_widget'   => '<aside class="arrow-box">',
+      'before_widget'   => '<aside class="col-4-12 widget front-widget">',
       'after_widget'    => '</aside>',
-      'before_title'    => '<h3 class="widget-title">',
-      'after_title'     => '</h3>',
+      'before_title'    => '<h2 class="widget-title">',
+      'after_title'     => '</h2>',
     ) );
-
   }
 
 // SEARCH

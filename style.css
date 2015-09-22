@@ -1,7 +1,7 @@
 /*
 Theme Name: Trienta Medik
 Theme URI: https://github.com/jrajalu/unityrepair
-Version: 1.0.3
+Version: 1.0.4
 Description: trientamedik.com.my
 Author: Jamaludin Rajalu
 */
@@ -303,10 +303,9 @@ a img.aligncenter {
 
 #cssmenu > ul > li > a {
   padding: 18px 15px 21px 15px;
-  border-right: 1px solid rgba(80, 80, 80, 0.12);
   text-decoration: none;
   font-size: 13px;
-  color: #d3eced;
+  color: #444444;
   text-transform: uppercase;
 }
 
@@ -326,7 +325,7 @@ a img.aligncenter {
   width: 0;
   height: 0;
   border: 6px solid transparent;
-  border-top-color: #d3eced;
+  border-top-color: #444444;
   right: 17px;
   top: 22px;
 }
@@ -528,7 +527,7 @@ a img.aligncenter {
     text-decoration: none;
     font-size: 13px;
     font-weight: 700;
-    color: #d3eced;
+    color: #444444;
     padding: 18px 25px 18px 25px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -580,8 +579,8 @@ a img.aligncenter {
     position: absolute;
     height: 3px;
     width: 22px;
-    border-top: 2px solid #d3eced;
-    border-bottom: 2px solid #d3eced;
+    border-top: 2px solid #444444;
+    border-bottom: 2px solid #444444;
     right: 25px;
     top: 18px;
   }
@@ -592,7 +591,7 @@ a img.aligncenter {
     position: absolute;
     height: 3px;
     width: 22px;
-    border-top: 2px solid #d3eced;
+    border-top: 2px solid #444444;
     right: 25px;
     top: 28px;
   }
@@ -624,7 +623,7 @@ a img.aligncenter {
 }
 
 .header-wrap {
-  background: #4E5A73;
+  background: #E9E9E8;
   min-height: 90px;
   position: relative;
   z-index: 5;
