@@ -18,7 +18,7 @@
             
             if( $loop->have_posts() ) : while( $loop->have_posts() ) : $loop->the_post(); ?>
             <li>
-              <img src="<?php echo get_post_meta(get_the_ID(),'_conference_product_image',true); ?>">
+              <img src="<?php echo get_post_meta(get_the_ID(),'_trientamedik_product_image',true); ?>">
               <?php the_title( sprintf( '<h4 class="product-name"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h4>' ); ?>
             </li>
           <?php endwhile; else: ?>
