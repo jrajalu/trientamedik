@@ -87,6 +87,7 @@ add_action( 'after_setup_theme', 'unityrepair_files' );
     require( get_template_directory() . '/inc/theme-cpt.php' );
     require( get_template_directory() . '/inc/theme-metabox.php' );
     require( get_template_directory() . '/inc/theme-navigation.php' );
+    require( get_template_directory() . '/inc/theme-option.php' );
     
     require( get_template_directory() . '/inc/theme-update.php' );
       new ThemeUpdateChecker(
